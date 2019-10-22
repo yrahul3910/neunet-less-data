@@ -9,4 +9,7 @@
 * `scott-knott-results.png`: The results of the above.
 * `scott-knott.py`: Dr. Menzies' Scott-Knott code.
 * `scott-knott-results.txt`: Results from the above.
-* `sk1.csv`: Input to Dr. Menzies' code. Results of the experiments.
+* `sk1.csv`: Input to Dr. Menzies' code. Results of the experiments. sknew refers to the experiment with parabolic activation.
+* `03 - Non-monotonic activations.ipynb`: Tests with parabolic activation function.
+* `sk-results-parabola`: Scott-Knott on the experiments above + the parabola experiments.
+* `data-03.pkl`: The data generated in the 03 - notebook. This isn't really used anywhere; it's just saved.
