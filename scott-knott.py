@@ -322,7 +322,7 @@ def bsTest(n=1000,mu1=10,sigma1=1,mu2=10.2,sigma2=1):
 #-------------------------------------------------------
 
 if __name__ == "__main__":
-  Rx.fileIn("sk1.csv")
+  Rx.fileIn(sys.argv[1])
   #_cliffsDelta()
   #print(  bsTest(100, 10.1, 1, 10.2, 1) )
   #print(  bsTest(100, 10.1, 1, 10.8, 1) )
