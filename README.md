@@ -24,8 +24,15 @@ Below is a description of all the files in this repository. Files in the same ex
 * `code/get_best_models.sh`: Runs through the Scott-Knott results to find model configurations that were in top-k of both precision and recall, then prints out their Scott-Knott results.
 * `code/best_results_helper.py`: A helper Pythonf ile for the above script.
 * `analysis.ods`: An analysis showing recommendations from this work vs. literature recommendations.
+* `experiment_results/recommended_{precision,recall,runtimes}.csv`: The metrics for the recommended models.
 ---
 * `code/05 - DBSCAN for classification.ipynb`: An attempt at using DBSCAN for classification (bad idea; it ends up basically the same as a modified k-nearest neighbors).
 * `code/03 - Testing the pipeline.ipynb`: Testing dimensionality reduction with ivis.
 ---
 * `reports/csc830-proposal.*`: CSC830 proposal, describing the research problem of training with less data and going against literature recommendations.
+---
+* `code/06 - New ant experiments.ipynb`: Code for the revised experiments that trained on ant 1.5 and tested on ant 1.6.
+* `experiment_results/final-ant/{f1,recall,precision,runtime}.txt`: The metrics for the new experiments that were trained on ant 1.5 and tested on ant 1.6.
+* `experiment_results/final-ant/parts/part*.txt`: The code output.
+* `code/06 - Scatterplot of medians of results.ipynb`: Scatterplot of precision vs recall, colored by the Scott-Knott rank of the F1 scores.
+* `code/python_to_js.sh`: A helper that converts Python dicts to JSON-compliant strings.

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# vim: sta:et:sw=2:ts=2:sts=2 :
 
 from copy import deepcopy as kopy
 import sys,random

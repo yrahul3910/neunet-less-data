@@ -33,10 +33,15 @@ reader.on('line', line => {
 		process.stdout.write(config['k'].toString());
 		
 		if (config['oversample'])
-			process.stdout.write('1 ');
+			process.stdout.write('1');
 		else
+			process.stdout.write('0');
+
+		if (config['activation'] == 'relu')
 			process.stdout.write('0 ');
-	} else if (line.startsWith('Recall')) {
+		else
+			process.stdout.write('1 ');
+	} else if (line.startsWith('Precision')) {
 		let matches = line.match(/\[(.*)\]/);
 		console.log(matches[1].replace(/,/g, ''));
 	}
