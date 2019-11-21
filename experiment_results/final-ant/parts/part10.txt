@@ -1,0 +1,762 @@
+
+
+Experiment 1: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 5, "oversample": false, "oversampler": null, "activation": "parabola"}
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/backend.py:4277: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:66: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:541: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4432: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:148: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/optimizers.py:793: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:3657: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1033: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1020: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:3005: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:190: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:197: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:207: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:216: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:223: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.0, 0.0, 0.4, 0.0, 0.16666666666666666, 0.0, 0.1111111111111111, 0.0, 0.0, 0.1111111111111111, 0.375, 0.0, 0.0, 0.0, 0.16666666666666666, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.0, 0.0, 0.0, 0.043478260869565216, 0.0, 0.043478260869565216, 0.0, 0.021739130434782608, 0.0, 0.0, 0.021739130434782608, 0.06521739130434782, 0.0, 0.0, 0.0, 0.021739130434782608, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.0, 0.0, 0.0, 0.0784313725490196, 0.0, 0.06896551724137931, 0.0, 0.03636363636363637, 0.0, 0.0, 0.03636363636363637, 0.11111111111111109, 0.0, 0.0, 0.0, 0.03846153846153846, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [4.016961097717285, 4.049264669418335, 4.390530824661255, 4.552953004837036, 4.947541236877441, 4.996933937072754, 5.18373703956604, 5.513607025146484, 5.8354620933532715, 6.15653657913208, 6.409481763839722, 6.765009880065918, 7.124098777770996, 7.7759599685668945, 7.747180461883545, 8.074884176254272, 8.354506731033325, 9.061974048614502, 9.162277698516846, 10.120184898376465]
+
+Experiment 2: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 5, "oversample": true, "oversampler": "random", "activation": "relu"}
+Precision: [0.3108108108108108, 0.3068181818181818, 0.2627118644067797, 0.2677165354330709, 0.21678321678321677, 0.2727272727272727, 0.26804123711340205, 0.22857142857142856, 0.20100502512562815, 0.2421875, 0.19594594594594594, 0.30097087378640774, 0.2898550724637681, 0.28205128205128205, 0.2727272727272727, 0.31868131868131866, 0.30434782608695654, 0.22972972972972974, 0.39655172413793105, 0.34615384615384615] 
+Recall: [0.5, 0.5869565217391305, 0.6739130434782609, 0.7391304347826086, 0.6739130434782609, 0.717391304347826, 0.5652173913043478, 0.6956521739130435, 0.8695652173913043, 0.6739130434782609, 0.6304347826086957, 0.6739130434782609, 0.43478260869565216, 0.717391304347826, 0.6521739130434783, 0.6304347826086957, 0.6086956521739131, 0.7391304347826086, 0.5, 0.5869565217391305] 
+F1: [0.38333333333333336, 0.4029850746268657, 0.3780487804878049, 0.3930635838150289, 0.328042328042328, 0.39520958083832336, 0.3636363636363636, 0.3440860215053763, 0.32653061224489793, 0.3563218390804598, 0.29896907216494845, 0.4161073825503355, 0.34782608695652173, 0.4049079754601227, 0.38461538461538464, 0.4233576642335766, 0.4057971014492754, 0.35051546391752575, 0.4423076923076923, 0.43548387096774194] 
+Runtime: [11.54924750328064, 12.576443433761597, 12.141903162002563, 12.441463232040405, 12.508471488952637, 12.97633409500122, 13.874003887176514, 14.12213921546936, 14.238665342330933, 14.375060796737671, 14.713371992111206, 14.992569208145142, 15.488263368606567, 15.855618000030518, 16.09234309196472, 16.874566316604614, 17.626350164413452, 17.176999807357788, 17.348912954330444, 17.779537439346313]
+
+Experiment 3: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 5, "oversample": true, "oversampler": "random", "activation": "parabola"}
+Precision: [0.15384615384615385, 0.16728624535315986, 0.22077922077922077, 0.15060240963855423, 0.0, 0.17647058823529413, 0.16304347826086957, 0.09433962264150944, 0.16071428571428573, 0.16605166051660517, 0.17647058823529413, 0.1744186046511628, 0.16140350877192983, 0.17110266159695817, 0.16917293233082706, 0.12903225806451613, 0.17509727626459143, 0.156794425087108, 0.13114754098360656, 0.17578125] 
+Recall: [0.043478260869565216, 0.9782608695652174, 0.3695652173913043, 0.5434782608695652, 0.0, 0.9782608695652174, 0.9782608695652174, 0.10869565217391304, 0.9782608695652174, 0.9782608695652174, 0.9782608695652174, 0.9782608695652174, 1.0, 0.9782608695652174, 0.9782608695652174, 0.08695652173913043, 0.9782608695652174, 0.9782608695652174, 0.34782608695652173, 0.9782608695652174] 
+F1: [0.06779661016949153, 0.2857142857142857, 0.2764227642276423, 0.23584905660377362, 0.0, 0.29900332225913623, 0.27950310559006214, 0.10101010101010101, 0.27607361963190186, 0.28391167192429023, 0.29900332225913623, 0.2960526315789474, 0.27794561933534745, 0.29126213592233013, 0.28846153846153844, 0.1038961038961039, 0.297029702970297, 0.2702702702702703, 0.19047619047619047, 0.2980132450331126] 
+Runtime: [18.119827270507812, 18.455177307128906, 18.73021364212036, 19.542644739151, 19.41499924659729, 19.89580512046814, 20.983633041381836, 20.824488639831543, 21.12216305732727, 21.344670057296753, 21.642436265945435, 22.10812783241272, 22.382708311080933, 22.584041595458984, 23.14874291419983, 23.498520374298096, 23.891491651535034, 24.07857322692871, 24.71181893348694, 24.850379943847656]
+
+Experiment 4: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 6, "oversample": false, "oversampler": null, "activation": "relu"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.0, 0.37735849056603776, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.23076923076923078, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0] 
+Recall: [0.0, 0.0, 0.43478260869565216, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.021739130434782608, 0.13043478260869565, 0.0, 0.06521739130434782, 0.0, 0.0, 0.0, 0.0, 0.06521739130434782, 0.0] 
+F1: [0.0, 0.0, 0.40404040404040403, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.041666666666666664, 0.16666666666666669, 0.0, 0.11764705882352941, 0.0, 0.0, 0.0, 0.0, 0.09677419354838708, 0.0] 
+Runtime: [24.37717580795288, 24.202805519104004, 24.616326808929443, 25.25006413459778, 25.055838108062744, 25.395769834518433, 25.76186728477478, 26.005497694015503, 26.518543481826782, 26.726945638656616, 27.15372085571289, 27.361883640289307, 27.714503526687622, 27.916807174682617, 28.256179332733154, 28.76355528831482, 28.826056718826294, 29.261967182159424, 29.41547727584839, 30.9947612285614]
+
+Experiment 5: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 6, "oversample": false, "oversampler": null, "activation": "parabola"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.14285714285714285, 0.3333333333333333, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.0, 0.021739130434782608, 0.021739130434782608, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.0, 0.03773584905660378, 0.04081632653061224, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [30.03348970413208, 30.603909969329834, 31.730250358581543, 31.98581886291504, 31.927330493927002, 32.42767524719238, 32.20485186576843, 32.56253266334534, 32.625786781311035, 33.55920720100403, 33.379335165023804, 33.948012590408325, 34.00894379615784, 34.617645502090454, 34.92179012298584, 35.14218854904175, 35.6643922328949, 35.93076515197754, 36.23054790496826, 36.59895396232605]
+
+Experiment 6: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 6, "oversample": true, "oversampler": "random", "activation": "relu"}
+Precision: [0.32857142857142857, 0.3466666666666667, 0.21341463414634146, 0.2468354430379747, 0.33783783783783783, 0.3246753246753247, 0.2661290322580645, 0.20809248554913296, 0.3333333333333333, 0.23880597014925373, 0.28125, 0.22413793103448276, 0.2727272727272727, 0.2411764705882353, 0.26174496644295303, 0.26732673267326734, 0.23178807947019867, 0.3173076923076923, 0.2, 0.22807017543859648] 
+Recall: [0.5, 0.5652173913043478, 0.7608695652173914, 0.8478260869565217, 0.5434782608695652, 0.5434782608695652, 0.717391304347826, 0.782608695652174, 0.7391304347826086, 0.6956521739130435, 0.391304347826087, 0.2826086956521739, 0.782608695652174, 0.8913043478260869, 0.8478260869565217, 0.5869565217391305, 0.7608695652173914, 0.717391304347826, 0.34782608695652173, 0.5652173913043478] 
+F1: [0.39655172413793105, 0.4297520661157025, 0.3333333333333333, 0.3823529411764706, 0.41666666666666663, 0.4065040650406504, 0.388235294117647, 0.3287671232876712, 0.4594594594594595, 0.3555555555555555, 0.3272727272727273, 0.24999999999999994, 0.40449438202247184, 0.37962962962962965, 0.4, 0.3673469387755102, 0.3553299492385787, 0.44, 0.253968253968254, 0.32499999999999996] 
+Runtime: [40.262876987457275, 39.6285126209259, 39.74721550941467, 40.077725887298584, 40.4464910030365, 40.80981707572937, 41.152597427368164, 41.55421757698059, 41.59805750846863, 42.075347900390625, 42.268882513046265, 42.476961851119995, 42.93620753288269, 43.80988597869873, 43.69195365905762, 43.93777370452881, 44.38076663017273, 44.731789112091064, 45.201234102249146, 45.57129454612732]
+
+Experiment 7: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 6, "oversample": true, "oversampler": "random", "activation": "parabola"}
+Precision: [0.18691588785046728, 0.23684210526315788, 0.25, 0.16423357664233576, 0.16071428571428573, 0.16475095785440613, 0.1728395061728395, 0.16917293233082706, 0.16304347826086957, 0.1602787456445993, 0.16363636363636364, 0.16862745098039217, 0.15306122448979592, 0.16363636363636364, 0.17842323651452283, 0.23529411764705882, 0.16363636363636364, 0.17110266159695817, 0.25, 0.1678832116788321] 
+Recall: [0.43478260869565216, 0.391304347826087, 0.10869565217391304, 0.9782608695652174, 0.9782608695652174, 0.9347826086956522, 0.30434782608695654, 0.9782608695652174, 0.9782608695652174, 1.0, 0.9782608695652174, 0.9347826086956522, 0.9782608695652174, 0.9782608695652174, 0.9347826086956522, 0.08695652173913043, 0.9782608695652174, 0.9782608695652174, 0.06521739130434782, 1.0] 
+F1: [0.26143790849673204, 0.2950819672131147, 0.15151515151515152, 0.28124999999999994, 0.27607361963190186, 0.28013029315960913, 0.2204724409448819, 0.28846153846153844, 0.27950310559006214, 0.27627627627627627, 0.2803738317757009, 0.28571428571428575, 0.26470588235294124, 0.2803738317757009, 0.29965156794425085, 0.12698412698412698, 0.2803738317757009, 0.29126213592233013, 0.10344827586206896, 0.2875] 
+Runtime: [45.12509751319885, 46.868752002716064, 46.2336483001709, 46.42971897125244, 46.91237473487854, 47.60036754608154, 47.90838408470154, 50.23467421531677, 48.623051404953, 49.16303324699402, 49.49580144882202, 51.018253326416016, 50.44655680656433, 50.886881828308105, 50.92457461357117, 52.77305054664612, 52.41547727584839, 53.036780834198, 53.5374710559845, 53.981549978256226]
+
+Experiment 8: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 7, "oversample": false, "oversampler": null, "activation": "relu"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.18181818181818182, 0.5454545454545454, 0.0, 0.0, 0.0, 0.0, 0.39473684210526316, 0.5384615384615384, 0.02702702702702703, 0.0, 0.0, 0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0] 
+Recall: [0.043478260869565216, 0.13043478260869565, 0.0, 0.0, 0.0, 0.0, 0.32608695652173914, 0.15217391304347827, 0.021739130434782608, 0.0, 0.0, 0.0, 0.0, 0.15217391304347827, 0.0, 0.0, 0.0, 0.043478260869565216, 0.0, 0.0] 
+F1: [0.07017543859649122, 0.21052631578947367, 0.0, 0.0, 0.0, 0.0, 0.35714285714285715, 0.23728813559322035, 0.024096385542168672, 0.0, 0.0, 0.0, 0.0, 0.20895522388059704, 0.0, 0.0, 0.0, 0.07407407407407408, 0.0, 0.0] 
+Runtime: [51.68844962120056, 52.05539655685425, 53.19910478591919, 54.341574907302856, 54.54618954658508, 53.93639779090881, 52.80709409713745, 53.17806959152222, 53.35918307304382, 53.92360997200012, 53.98221302032471, 54.340691804885864, 54.61903142929077, 55.09046268463135, 55.14689087867737, 55.62126803398132, 55.858306646347046, 56.53387379646301, 56.629454135894775, 57.13697910308838]
+
+Experiment 9: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 7, "oversample": false, "oversampler": null, "activation": "parabola"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.1111111111111111, 0.0, 0.0, 0.08333333333333333, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.021739130434782608, 0.0, 0.0, 0.021739130434782608, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.021739130434782608, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.03636363636363637, 0.0, 0.0, 0.034482758620689655, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.042553191489361694, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [57.23930883407593, 58.14300274848938, 57.961403369903564, 59.35724639892578, 59.0688898563385, 60.685471057891846, 60.19312858581543, 59.961846590042114, 59.88097023963928, 60.47923564910889, 60.53554368019104, 61.14412450790405, 61.29276418685913, 61.74767184257507, 61.93129253387451, 62.66175556182861, 62.886616230010986, 63.224679708480835, 63.282068967819214, 63.883198976516724]
+
+Experiment 10: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 7, "oversample": true, "oversampler": "random", "activation": "relu"}
+Precision: [0.35135135135135137, 0.1781609195402299, 0.22560975609756098, 0.3469387755102041, 0.28888888888888886, 0.22560975609756098, 0.3026315789473684, 0.35294117647058826, 0.3333333333333333, 0.24503311258278146, 0.18181818181818182, 0.21910112359550563, 0.25274725274725274, 0.25, 0.3333333333333333, 0.27358490566037735, 0.25203252032520324, 0.36538461538461536, 0.2631578947368421, 0.32558139534883723] 
+Recall: [0.2826086956521739, 0.6739130434782609, 0.8043478260869565, 0.3695652173913043, 0.5652173913043478, 0.8043478260869565, 0.5, 0.391304347826087, 0.30434782608695654, 0.8043478260869565, 0.30434782608695654, 0.8478260869565217, 0.5, 0.7608695652173914, 0.30434782608695654, 0.6304347826086957, 0.6739130434782609, 0.41304347826086957, 0.6521739130434783, 0.30434782608695654] 
+F1: [0.3132530120481928, 0.2818181818181818, 0.3523809523809524, 0.3578947368421052, 0.38235294117647056, 0.3523809523809524, 0.3770491803278689, 0.3711340206185567, 0.31818181818181823, 0.3756345177664975, 0.22764227642276424, 0.34821428571428575, 0.3357664233576642, 0.3763440860215054, 0.31818181818181823, 0.3815789473684211, 0.3668639053254438, 0.3877551020408163, 0.37500000000000006, 0.31460674157303375] 
+Runtime: [66.33376932144165, 66.88644218444824, 67.22938632965088, 67.93901586532593, 68.15368795394897, 68.67991232872009, 68.8112359046936, 69.74692177772522, 70.07643008232117, 70.9075186252594, 70.64096570014954, 70.76519298553467, 70.81931233406067, 71.54359149932861, 72.13084053993225, 72.96443819999695, 72.99406123161316, 73.47947597503662, 73.56735515594482, 74.7815568447113]
+
+Experiment 11: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": false, "reduce_data": true, "embedding_dims": 3, "k": 7, "oversample": true, "oversampler": "random", "activation": "parabola"}
+Precision: [0.19383259911894274, 0.17670682730923695, 0.16666666666666666, 0.18442622950819673, 0.18181818181818182, 0.176, 0.17374517374517376, 0.1814516129032258, 0.17886178861788618, 0.17786561264822134, 0.0, 0.1774193548387097, 0.12871287128712872, 0.1634980988593156, 0.1825726141078838, 0.17391304347826086, 0.15, 0.18803418803418803, 0.18, 0.1685823754789272] 
+Recall: [0.9565217391304348, 0.9565217391304348, 0.9782608695652174, 0.9782608695652174, 0.8695652173913043, 0.9565217391304348, 0.9782608695652174, 0.9782608695652174, 0.9565217391304348, 0.9782608695652174, 0.0, 0.9565217391304348, 0.2826086956521739, 0.9347826086956522, 0.9565217391304348, 0.9565217391304348, 0.32608695652173914, 0.9565217391304348, 0.9782608695652174, 0.9565217391304348] 
+F1: [0.32234432234432236, 0.2983050847457627, 0.2848101265822785, 0.3103448275862069, 0.30075187969924816, 0.29729729729729726, 0.2950819672131148, 0.3061224489795918, 0.3013698630136986, 0.3010033444816053, 0.0, 0.29931972789115646, 0.17687074829931973, 0.27831715210355984, 0.30662020905923343, 0.294314381270903, 0.2054794520547945, 0.3142857142857143, 0.304054054054054, 0.28664495114006516] 
+Runtime: [74.77829813957214, 75.92177510261536, 78.98947954177856, 76.95996689796448, 77.56375241279602, 76.34764504432678, 76.52175736427307, 77.00422763824463, 76.86039304733276, 77.04088306427002, 77.42113041877747, 77.73860669136047, 77.89986371994019, 79.03962707519531, 78.4583785533905, 78.74371576309204, 78.91959285736084, 79.15202617645264, 79.7268500328064, 80.21351933479309]
+
+Experiment 12: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": false, "embedding_dims": 2, "k": 3, "oversample": false, "oversampler": null, "activation": "relu"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [125.2763397693634, 125.43555974960327, 125.91860151290894, 126.44619393348694, 126.50676107406616, 126.88943529129028, 127.2865858078003, 127.51185488700867, 127.76294827461243, 128.1653859615326, 128.75328993797302, 129.57047653198242, 129.74179697036743, 130.18955993652344, 130.74180436134338, 131.25980305671692, 131.57611727714539, 132.04122614860535, 132.3290991783142, 132.7784914970398]
+
+Experiment 13: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": false, "embedding_dims": 2, "k": 3, "oversample": false, "oversampler": null, "activation": "parabola"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [132.89877319335938, 133.47890543937683, 134.26212239265442, 134.79392981529236, 135.60299372673035, 136.00511360168457, 135.58991718292236, 136.10080432891846, 136.6449100971222, 137.76004719734192, 138.38426876068115, 138.97942233085632, 139.75286173820496, 139.96291136741638, 140.54414415359497, 141.0215620994568, 141.57940196990967, 141.73839855194092, 142.28030276298523, 142.4176890850067]
+
+Experiment 14: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": false, "embedding_dims": 2, "k": 3, "oversample": true, "oversampler": "random", "activation": "relu"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.15081967213114755, 0.15081967213114755, 0.18243243243243243, 0.0, 0.15081967213114755, 0.15081967213114755, 0.15081967213114755, 0.0, 0.0, 0.15081967213114755, 0.15081967213114755, 0.15081967213114755, 0.38461538461538464, 0.15081967213114755, 0.0, 0.30303030303030304, 0.15081967213114755, 0.15081967213114755, 0.0, 0.15081967213114755] 
+Recall: [1.0, 1.0, 0.5869565217391305, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.10869565217391304, 1.0, 0.0, 0.21739130434782608, 1.0, 1.0, 0.0, 1.0] 
+F1: [0.26210826210826216, 0.26210826210826216, 0.27835051546391754, 0.0, 0.26210826210826216, 0.26210826210826216, 0.26210826210826216, 0.0, 0.0, 0.26210826210826216, 0.26210826210826216, 0.26210826210826216, 0.1694915254237288, 0.26210826210826216, 0.0, 0.25316455696202533, 0.26210826210826216, 0.26210826210826216, 0.0, 0.26210826210826216] 
+Runtime: [148.89414954185486, 149.03728771209717, 149.5981605052948, 150.30018591880798, 150.71705746650696, 150.98297119140625, 155.58373308181763, 153.1173324584961, 153.39267563819885, 154.4968876838684, 153.7428936958313, 153.59989261627197, 154.45855474472046, 156.434579372406, 156.61929607391357, 157.36473417282104, 156.5863049030304, 156.31464982032776, 156.77481818199158, 157.21835613250732]
+
+Experiment 15: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": false, "embedding_dims": 2, "k": 3, "oversample": true, "oversampler": "random", "activation": "parabola"}
+Precision: [0.1513157894736842, 0.16666666666666666, 0.3333333333333333, 0.18181818181818182, 0.18181818181818182, 0.2, 0.18181818181818182, 0.14285714285714285, 0.2857142857142857, 0.125, 0.2, 0.2, 0.2, 0.125, 0.0, 0.0, 0.15384615384615385, 0.2222222222222222, 0.2857142857142857, 0.2] 
+Recall: [1.0, 0.043478260869565216, 0.021739130434782608, 0.043478260869565216, 0.043478260869565216, 0.021739130434782608, 0.043478260869565216, 0.021739130434782608, 0.043478260869565216, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.043478260869565216, 0.021739130434782608, 0.0, 0.0, 1.0, 0.043478260869565216, 0.043478260869565216, 0.043478260869565216] 
+F1: [0.26285714285714284, 0.06896551724137931, 0.04081632653061224, 0.07017543859649122, 0.07017543859649122, 0.0392156862745098, 0.07017543859649122, 0.03773584905660378, 0.07547169811320756, 0.03703703703703704, 0.0392156862745098, 0.0392156862745098, 0.07142857142857142, 0.03703703703703704, 0.0, 0.0, 0.2666666666666667, 0.07272727272727274, 0.07547169811320756, 0.07142857142857142] 
+Runtime: [158.93397760391235, 164.19205713272095, 161.92826175689697, 161.2358422279358, 161.75018644332886, 162.76796007156372, 163.64364743232727, 163.8460705280304, 164.69229245185852, 166.3376007080078, 167.29822492599487, 163.38774156570435, 162.77243852615356, 162.868093252182, 163.69912958145142, 163.74323391914368, 164.8894944190979, 165.17005038261414, 165.05269360542297, 165.6089904308319]
+
+Experiment 16: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": true, "embedding_dims": 2, "k": 3, "oversample": false, "oversampler": null, "activation": "relu"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+Retrying...
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [159.38224363327026, 161.93740844726562, 164.35412693023682, 164.6736307144165, 167.81062054634094, 168.14826488494873, 168.95160937309265, 168.96834254264832, 172.7605264186859, 172.5218415260315, 170.49812150001526, 169.7931845188141, 173.4183931350708, 174.9721703529358, 176.27465415000916, 174.07234692573547, 172.95064043998718, 172.99090123176575, 173.55713534355164, 173.69846415519714]
+
+Experiment 17: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": true, "embedding_dims": 2, "k": 3, "oversample": false, "oversampler": null, "activation": "parabola"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.0, 0.0, 0.0, 0.15081967213114755, 0.0, 0.0, 0.15081967213114755, 0.0, 0.0, 0.0, 0.0, 0.0, 0.15081967213114755, 0.0, 0.0, 0.0, 0.0, 0.15081967213114755, 0.0, 0.0] 
+Recall: [0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0] 
+F1: [0.0, 0.0, 0.0, 0.26210826210826216, 0.0, 0.0, 0.26210826210826216, 0.0, 0.0, 0.0, 0.0, 0.0, 0.26210826210826216, 0.0, 0.0, 0.0, 0.0, 0.26210826210826216, 0.0, 0.0] 
+Runtime: [172.4146707057953, 172.79957151412964, 172.88604092597961, 174.02968764305115, 175.17787671089172, 174.9551544189453, 175.98814964294434, 178.0342652797699, 179.16409420967102, 180.22872734069824, 180.524320602417, 181.8932020664215, 181.9676694869995, 183.22978162765503, 184.5124351978302, 185.25286531448364, 185.4014093875885, 187.26597595214844, 187.5595347881317, 187.14761662483215]
+
+Experiment 18: {"deep_learner": true, "n_layers": 3, "batchnorm": true, "lipschitz_lr": true, "reduce_data": true, "embedding_dims": 2, "k": 3, "oversample": true, "oversampler": "random", "activation": "relu"}
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Retrying...
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+Precision: [0.40425531914893614, 0.15384615384615385, 0.15081967213114755, 0.0, 0.23404255319148937, 0.15081967213114755, 0.0, 0.15081967213114755, 0.15081967213114755, 0.1214574898785425, 0.15081967213114755, 0.15436241610738255, 0.15081967213114755, 0.15081967213114755, 0.0, 0.15547703180212014, 0.0, 0.0, 0.0, 0.0] 
+Recall: [0.41304347826086957, 1.0, 1.0, 0.0, 0.2391304347826087, 1.0, 0.0, 1.0, 1.0, 0.6521739130434783, 1.0, 1.0, 1.0, 1.0, 0.0, 0.9565217391304348, 0.0, 0.0, 0.0, 0.0] 
+F1: [0.4086021505376344, 0.2666666666666667, 0.26210826210826216, 0.0, 0.23655913978494622, 0.26210826210826216, 0.0, 0.26210826210826216, 0.26210826210826216, 0.20477815699658702, 0.26210826210826216, 0.26744186046511625, 0.26210826210826216, 0.26210826210826216, 0.0, 0.2674772036474164, 0.0, 0.0, 0.0, 0.0] 
+Runtime: [197.7504072189331, 194.19978070259094, 193.93502044677734, 194.3074254989624, 194.38363599777222, 197.10272765159607, 199.34050869941711, 198.84113240242004, 198.63682460784912, 197.97388243675232, 197.8007197380066, 198.09911131858826, 199.0364487171173, 199.9884388446808, 199.43062615394592, 200.75397086143494, 202.33972907066345, 203.56624603271484, 204.19189310073853, 204.2002191543579]
+
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  "precision", "predicted", average, warn_for)
+
+
