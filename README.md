@@ -37,3 +37,4 @@ Below is a description of all the files in this repository. Files in the same ex
 * `code/06 - Scatterplot of medians of results.ipynb`: Scatterplot of precision vs recall, colored by the Scott-Knott rank of the F1 scores.
 * `code/python_to_js.sh`: A helper that converts Python dicts to JSON-compliant strings.
 * `code/07 - Running scalability tests.ipynb`: Code to run scalability tests on the models.
+* `experiment_results/final-ant/selected.txt`: The models selected for further tests--these will be tested for scalability and on other datasets. To get these, the `code/get_best_models.sh` code was run. Then, the models with their 90%ile above 41% F-1, 70%ile above 39%, and 50%ile above 35% F-1 score were kept.

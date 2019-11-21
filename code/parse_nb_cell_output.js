@@ -41,7 +41,7 @@ reader.on('line', line => {
 			process.stdout.write('0 ');
 		else
 			process.stdout.write('1 ');
-	} else if (line.startsWith('Precision')) {
+	} else if (line.startsWith('Runtime')) {
 		let matches = line.match(/\[(.*)\]/);
 		console.log(matches[1].replace(/,/g, ''));
 	}

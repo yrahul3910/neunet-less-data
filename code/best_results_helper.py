@@ -8,11 +8,15 @@ with open('p', 'r') as f:
 with open('r', 'r') as f:
     best_recall = set(f.readlines())
 
+with open('f', 'r') as f:
+    best_f1 = set(f.readlines())
+
 search_string = ''
-for x in best_recall.intersection(best_precision):
+for x in best_recall.intersection(best_precision).intersection(best_f1):
     # Ignore the \n character at the end; join by pipes
     search_string += x[:-1] + '|'
 
+print(search_string[:-1])
 # Print results
 print('Precision:\n==========')
 os.system('grep -E "' + search_string[:-1] + '" sp')
@@ -20,6 +24,6 @@ os.system('grep -E "' + search_string[:-1] + '" sp')
 print('\nRecall:\n=======')
 os.system('grep -E "' + search_string[:-1] + '" sr')
 
-print('\nRuntime:\n========')
-os.system('grep -E "' + search_string[:-1] + '" rr')
+print('\nF1:\n========')
+os.system('grep -E "' + search_string[:-1] + '" sf')
 
