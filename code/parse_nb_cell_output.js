@@ -38,9 +38,16 @@ reader.on('line', line => {
 			process.stdout.write('0');
 
 		if (config['activation'] == 'relu')
-			process.stdout.write('0 ');
+			process.stdout.write('0');
 		else
-			process.stdout.write('1 ');
+			process.stdout.write('1');
+
+		if (config.hasOwnProperty('n_desired')) {
+			process.stdout.write('_');
+			process.stdout.write(config['n_desired'].toString());
+		}
+
+		process.stdout.write(' ');
 	} else if (line.startsWith('Runtime')) {
 		let matches = line.match(/\[(.*)\]/);
 		console.log(matches[1].replace(/,/g, ''));

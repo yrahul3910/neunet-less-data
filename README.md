@@ -33,7 +33,7 @@ Below is a description of all the files in this repository. Files in the same ex
 ---
 * `code/06 - New ant experiments.ipynb`: Code for the revised experiments that trained on ant 1.5 and tested on ant 1.6.
 * `experiment_results/final-ant/{f1,recall,precision,runtime}.txt`: The metrics for the new experiments that were trained on ant 1.5 and tested on ant 1.6.
-* `experiment_results/final-ant/parts/part*.txt`: The code output.
+* `experiment_results/final-ant/{scalability-, results-}parts/part*.txt`: The code output for the experiments and the scalability tests.
 * `code/06 - Scatterplot of medians of results.ipynb`: Scatterplot of precision vs recall, colored by the Scott-Knott rank of the F1 scores.
 * `code/python_to_js.sh`: A helper that converts Python dicts to JSON-compliant strings.
 * `code/07 - Running scalability tests.ipynb`: Code to run scalability tests on the models.
