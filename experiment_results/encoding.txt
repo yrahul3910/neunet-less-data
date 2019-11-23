@@ -1,6 +1,6 @@
 Encoding:
 =========
-Xabcdefg
+Xabcdefg(h)
 
 a = DL (1) or not (0)
 b = Layers (1-3)
@@ -9,4 +9,6 @@ d = Reduced (1) or not (0)
 e = Embedding dims (2-3)
 f = k options for ivis (3-7)
 g = Oversampled (1) or not (0)
+h = Parabola (1) or ReLU (0)
 
+Literature: X13002310
