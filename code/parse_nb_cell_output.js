@@ -48,7 +48,7 @@ reader.on('line', line => {
 		}
 
 		process.stdout.write(' ');
-	} else if (line.startsWith('Runtime')) {
+	} else if (line.startsWith('')) {
 		let matches = line.match(/\[(.*)\]/);
 		console.log(matches[1].replace(/,/g, ''));
 	}
