@@ -48,7 +48,7 @@ reader.on('line', line => {
 		}
 
 		process.stdout.write(' ');
-	} else if (line.startsWith('')) {
+	} else if (line.startsWith('Recall')) {
 		let matches = line.match(/\[(.*)\]/);
 		console.log(matches[1].replace(/,/g, ''));
 	}
