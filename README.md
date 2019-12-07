@@ -38,3 +38,11 @@ Below is a description of all the files in this repository. Files in the same ex
 * `code/python_to_js.sh`: A helper that converts Python dicts to JSON-compliant strings.
 * `code/07 - Running scalability tests.ipynb`: Code to run scalability tests on the models.
 * `experiment_results/final-ant/selected.txt`: The models selected for further tests--these will be tested for scalability and on other datasets. To get these, the `code/get_best_models.sh` code was run. Then, the models with their 90%ile above 41% F-1, 70%ile above 39%, and 50%ile above 35% F-1 score were kept.
+* `code/08 - Analyse scalability results.ipynb`: Generate scalability plots.
+---
+* `experiment_results/final-ant/transfer-experiments/*`: Runs of the 28 top models from ant 1.5->1.6 on other datasets.
+* `code/11 - ant experiments 1.6-1.7`: Poorly named; this contains all the transfer experiments.
+* `experiment_results/final-ant/analysis.xlsx`: All the results in one place. Values within parentheses are 70%ile - 50%ile.
+---
+* `code/09 - Naive Bayes on Tan's AST data.ipynb`: Implied by the file name. This is for reproducing the paper's results.
+* `code/10 - Reproducing Tan's results on PROMISE features.ipynb`: Checking how to reproduce the paper's results on PROMISE data.
