@@ -43,6 +43,12 @@ Below is a description of all the files in this repository. Files in the same ex
 * `experiment_results/final-ant/transfer-experiments/*`: Runs of the 28 top models from ant 1.5->1.6 on other datasets.
 * `code/11 - ant experiments 1.6-1.7`: Poorly named; this contains all the transfer experiments.
 * `experiment_results/final-ant/analysis.xlsx`: All the results in one place. Values within parentheses are 70%ile - 50%ile.
+* `experiment_results/final-ant/transfer-experiments/best-models.txt`: The models that did best in at least one dataset.
 ---
 * `code/09 - Naive Bayes on Tan's AST data.ipynb`: Implied by the file name. This is for reproducing the paper's results.
 * `code/10 - Reproducing Tan's results on PROMISE features.ipynb`: Checking how to reproduce the paper's results on PROMISE data.
+---
+* `code/12 - How many epochs needed.ipynb`: Runs models to check how many epochs are really needed for convergence. Roughly 70 epochs, rather than 100.
+* `experiment_results/final-ant/required-epochs/`: The results of the above.
+---
+* `experiment_results/new-purging/`: Experiment results when the y > 1 values are set to 1 rather than removing the rows, as done by the other papers.
