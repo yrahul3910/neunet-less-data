@@ -52,5 +52,5 @@ Below is a description of all the files in this repository. Files in the same ex
 * `experiment_results/final-ant/required-epochs/`: The results of the above.
 ---
 * `experiment_results/new-purging/`: Experiment results when the y > 1 values are set to 1 rather than removing the rows, as done by the other papers.
-* `code/13 - Testing Wide Neural Nets.ipynb`: Tests 1-layer, but wider (100-neurons) neural nets on the data as a means of improving the performance.
+* `code/13 - Testing Wide Neural Nets.ipynb`: Tests wider (100-neurons) neural nets on the data as a means of improving the performance.
 * `code/get_sk_results.sh`: A little automation to get Scott-Knott results for all metrics. Initially, the `parse_nb_cell_output.js` file should print out Precision scores, and all `sed` commands should have been run before this script, along with the `python_to_js` script.
